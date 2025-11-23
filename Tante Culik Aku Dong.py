@@ -18,11 +18,12 @@ def sing_lyric(lyric, delay, speed):
 
 def sing_song():
     lyrics = [
-        ("\nsudah terbiasa terjadi tante", 0.10),
-        ("teman datang ketika lagi butuh saja", 0.09),
-        ("coba kalo lagi susah", 0.08),
-        ("mereka semua menghilang...", 0.09),
-        ("tante\n", 0.07),
+        ("\nThere's a million girls around", 0.10),
+        ("But I don't see no one but you, baby", 0.10),
+        ("Girl, you're so one in a million", 0.08),
+        ("You are..", 0,6),
+        ("Baby, you're the best I ever had", 0.07),
+        ("Best I ever had\n",0,08),
     ]
     
     delays = [0.3, 3.9, 8.1, 11.0, 16.8]  
@@ -38,4 +39,5 @@ def sing_song():
         thread.join()
 
 if __name__ == "__main__":
+
     sing_song()
